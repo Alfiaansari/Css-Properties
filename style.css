@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: darkmagenta;
+}
+h1{
+    color: white;
+}
+.flex-container{
+    display: flex;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    transition: 2s all;
+}
+a:hover{
+    background-color: deepskyblue;
+    color: black;
+}
+.flex-item1{
+    
+    flex: 20%;
+    background-color: brown;
+}
+.flex-item2{
+    flex: 80%;
+    /* background-color:cyan; */
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+    margin-left: 40px;
+}
+/* slider code start here*/
+.slider{
+    height: 600px;
+    background-image: url('../image/How-to-Promote-Environmental-Sustainability-Within-Your-Company.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: animation;
+    animation-duration: 4s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes animation{
+    from{
+        background-image: url('../image/site_0707_0022-500-333-20131129105200.jpg');
+        background-repeat: no-repeat;
+        background-size:contain;
+    }
+
+    to{
+        background-image: url('../image/site_0707_0022-500-333-20131129105200.jpg');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+}
